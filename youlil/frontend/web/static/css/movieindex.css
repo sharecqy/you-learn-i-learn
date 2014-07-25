@@ -1,0 +1,12 @@
+.movie_block{
+	border-width:1px 0px 0px;
+	border-style:dashed;
+	border-color: #DD4814;
+  	padding-top:10px;
+	margin:10px 0 10px;
+}
+
+.movie_img{
+  width:100px;
+  height:140px;
+}

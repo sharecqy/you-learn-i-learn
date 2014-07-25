@@ -1,0 +1,36 @@
+﻿{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block jsblock %}
+{% endblock jsblock %}
+
+{% block content %}
+<div id="content">		  
+    <form name="register_form" name="" method="post" action="/register">
+        <div class="item">
+            <label>邮箱</label>
+            <input id="email" name="email" type="text" class="basic_input" maxlength="60" tabindex="1" value=""/>
+        </div>
+		<div class="item">
+            <label>昵称</label>
+            <input id="username" name="username" type="text" class="basic_input" maxlength="60" tabindex="1" value=""/>
+        </div>
+        <div class="item">
+            <label>密码</label>
+            <input id="password1" name="password1" type="password" class="basic_input" tabindex="2" maxlength="20"/>
+        </div>
+        <div class="item">
+            <label>密码</label>
+            <input id="password2" name="password2" type="password" class="basic_input" tabindex="2" maxlength="20"/>
+       </div>
+
+        <div class="item_submit">
+            <label>&nbsp;</label>
+            <input type="submit" value="注册"  class="basic_button" tabindex="6" />
+        </div>
+    </form>	
+</div>
+{% endblock %}

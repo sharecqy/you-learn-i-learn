@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+
+
+{% block cssblock %}
+{{ super() }}
+<link href="/static/css/newsindex.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{
+{% block header %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+	 <div class="span7">
+	 <!--Body content-->
+	    <div id="arts">
+		{%- for art in arts -%}
+			<div class="{{ loop.cycle('art', 'art even')}}">
+				<div class="art_title">
+                    <a href="/news?art={{art.art_id}}"><strong class="title">{{art.title}}</strong></a>
+				</div>				
+				<div class="art_info font_gray">
+                    <span >Category:{{art.cat_name}}</span>
+                    <!--<span >&nbsp&nbspHardness:{{art.hardness}}</span>-->
+				</div>				
+				<div class="art_desc">
+					{{art.description}}......
+				</div>
+			</div>
+		{%- endfor %}
+		</div>
+	</div>
+{% endblock %}
+
+{% block leftsidebar %}
+<div class="span2">
+<!--Sidebar content-->
+	<div id="user">
+	</div>
+</div>	
+{% endblock %}
+
+{% block rightsidebar %}
+<div class="span3">
+<!--Sidebar content-->
+
+	<div id="user">
+	</div>
+		<div class="btn-group">
+    		<button id="guess_btn" type="submit" class="btn btn-success">Guess News</button>
+    	</div>
+</div>	
+{% endblock %}
+
+{% block jsblock %}
+{{ super() }}
+<script src="/static/js/newsindex.js" type="text/javascript"></script>
+{% endblock %}

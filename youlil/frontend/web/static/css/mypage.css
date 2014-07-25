@@ -1,0 +1,11 @@
+.singletopic{
+	border-width:1px 0px 0px;
+	border-style:dashed;
+	border-color: gray;
+  	padding-top:10px;
+	margin:20px 0 30px;
+}
+
+.user_info{
+	padding-top:10px 20px 40px;
+}

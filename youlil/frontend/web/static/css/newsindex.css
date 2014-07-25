@@ -1,0 +1,13 @@
+.art{
+	border-width:1px 0px 0px;
+	border-style:dashed;
+	border-color: #DD4814;
+  	padding-top:10px;
+	margin:10px 0 10px;
+}
+.title{
+  color:#000000
+}
+.font_gray{
+  color:#909090;
+}

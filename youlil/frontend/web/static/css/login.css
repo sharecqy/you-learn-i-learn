@@ -1,0 +1,67 @@
+.visible{
+    display:block;
+    /*color:#999;*/
+}
+.invisible{
+    display: none;
+    /*color:#999;*/
+}
+
+/*
+#container{
+    margin: 0;
+}
+#content{
+    margin:0 auto;
+    width:920px;
+    border-color: red;
+}
+#content #clear{
+    margin:0;
+    padding:0;
+    border:0;
+    clear:both;
+}
+
+#left_part{
+    width:460px;  
+    float:left;  
+}
+#index_image{
+    width:460px;
+}
+#right_part{
+	  width:460px;
+	  float:left;
+	  border-width:0px;
+    border-style: dashed;
+    font-size: small
+}
+
+#youlil_login{
+}
+
+#login_area{
+    display:block;
+    height:150px;
+    padding:50px 80px;
+    color:#999;
+}
+#signin_area{
+    display: none;
+    height:150px;
+	  padding:50px 80px;
+    color:#999;
+}
+.item{
+    padding:0 0 0 4px;
+}
+
+#other_login{
+}
+#footer{
+    border-width:2px;
+    border-style: dashed;
+    clear:both;
+}
+*/

@@ -1,0 +1,74 @@
+.movie_img{
+  width:120px;
+  height:180px;
+}
+
+.movie_block{
+	border-width:1px 0px 0px;
+	border-style:solid;
+	border-color: #DD4814;
+  	padding-top:10px;
+	margin:10px 0 10px;
+}
+
+.critic_block{
+	border-width:1px 0px 0px;
+	border-style:solid;
+	border-color: #DD4814;
+  	padding-top:2px;
+	margin:20px 0 10px;
+}
+
+.comments_block{
+	border-width:1px 0px 0px;
+	border-style:solid;
+	border-color: #DD4814;
+  	padding-top:2px;
+	margin:20px 0 10px;
+}
+
+.review_block{
+	border-width:1px 0px 0px;
+	border-style:dashed;
+	border-color: #DD4814;
+  	padding-top:7px;
+	margin:5px 0 5px;
+}
+
+.comment_editor{
+  margin:60px 0 60px 0px;
+}
+
+.movcomment{
+	border-width:1px 0px 0px;
+	border-style:dashed;
+  	border-color: gray;
+  	padding-top:10px;
+	margin:10px 0 50px;	
+}
+
+.userinfo{
+  width:140px;
+  margin:0 0 0;
+  float:left;
+  color:black;
+}
+
+.vote_cell {
+	display:inline;
+	float: right;
+	width: 120px;
+	text-align: center;
+  	border: 1px 0 1px solid;
+}
+
+.comment_info{
+  	display:block;
+  	margin:0px 0px 30px;
+}
+
+.comment_content{
+  /*border-width:1px 0px 0px;
+  border-style:dashed;*/
+  padding:10px 0px 10px;
+}

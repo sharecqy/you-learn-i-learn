@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}  
+{% endblock %}
+
+{% block cssblock %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="/static/css/login.css" />
+{% endblock %}
+
+{% block jsblock %}
+{{ super() }}
+<script src="/static/js/login.js"></script>
+<script src="/static/js/jquery.validate.min.js"></script>
+{% endblock %}
+{% block header %}
+{% endblock %}
+
+{% block content %}
+    <div class="span5">
+        <div id="image_area">
+            <img id="index_image" src="{{index_image}}"/>
+        </div>
+    </div>    
+    <div class="span5">
+        <div id="login_area" class="{{login_state}}">
+            <div id="youlil_login">		  
+                <form class="form-horizontal" name="login_form" name="" method="post" action="/login">
+                    {{ xsrf_form_html()|safe}} 
+                    <div id="login_help" class="help"></div>
+                    <div class="control-group">
+                        <label id="signup_help" class="help"></label>
+                        <label class="control-label">Email</label>
+                        <div class="controls">
+                            <input type="text" id="login_email" name="login_email" placeholder="Email" maxlength="50">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Password</label>
+                        <div class="controls">
+                            <input type="password" id="login_password"  name="login_password" placeholder="Password" maxlength="50">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="checkbox">
+                                <input type="checkbox" checked="checked"> Remember me
+                            </label>
+                            <label id="switch_signup">
+                                Go To Sign Up
+                            </label>                            
+                            <button type="submit" class="btn">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="other_login">
+                <div id="weibo_login">
+                </div>
+                <div id="qq_login">
+                </div>
+                <div id="douban_login">
+                </div>
+            </div>
+        </div>
+        <div id="signup_area">
+            <div id="youlil_signup" class="{{signup_state}}">
+                <form class="form-horizontal" name="register_form" method="post" action="/register">
+                    {{ xsrf_form_html()|safe}}                     
+                    <div class="control-group">
+                        <label id="signup_help" class="help"></label>
+                        <label class="control-label" for="signup_email">Email</label>
+                        <div class="controls">
+                            <input type="text" id="signup_email" name="signup_email" placeholder="Email" maxlength="50">
+                        </div>
+                    </div>
+                     <div class="control-group">
+                        <label class="control-label" for="signup_name">NickName</label>
+                        <div class="controls">
+                            <input type="text" id="signup_name" name="signup_name" placeholder="NickName" maxlength="50">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="signup_password">Password</label>
+                        <div class="controls">
+                            <input type="password" id="signup_password"  name="signup_password" placeholder="Password" maxlength="50">
+                        </div>
+                    </div>
+                       <div class="control-group">
+                        <label class="control-label" for="signup_passconf">Password</label>
+                        <div class="controls">
+                            <input type="password" id="signup_passconf"  name="signup_passconf" placeholder="Password" maxlength="50">
+                        </div>
+                    </div>
+                    <div class="control-group">                        
+                        <div class="controls">
+                            <label id="switch_login">
+                                Back To Login 
+                            </label>
+                            <button type="submit" class="btn">Sign up</button>                
+                        </div>
+                    </div>
+
+                </form> 
+            </div>
+        </div>
+        <div id="demo_area">
+        </div>
+        <div id="clear">
+        </div>
+    </div>    
+</div>
+{% endblock %}

@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+
+
+{% block cssblock %}
+{{ super() }}
+<link href="/static/css/topicindex.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{
+{% block header %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<!--Body content-->
+<div class="span7">
+    <ul class="nav nav-tabs" id="tabs">
+        <li class="active pull-right"><a href="#newest" data-toggle="tab">Newest</a></li>
+        <li class="pull-right"><a href="#hottest" data-toggle="tab">Hottest</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <!--Newest topics-->
+    	<div id="newest" class="tab-pane active">
+    		{%- for tp in newest_topics -%}
+    			<div class="row-fluid topic">
+    				<div class="span3 row">
+                        <div class="span7">
+                            <div class="offset5"><strong>{{tp.comments_num}}</strong></div>
+                            <div><strong>comments</strong></div>
+                        </div>
+                        <div class="span1 offset1">
+                            <div class="offset7"><strong>{{tp['statistic']['push']-tp['statistic']['pull']}}</strong></div>
+                            <div><strong>votes</strong></div>
+                        </div>
+                    </div>
+    				<div class="span9">
+                        <a href="/topic?tp={{tp._id}}"><strong class="title">{{tp.title}}</strong></a>
+                        <div class="row-fluid">
+                        	{%- for tag in tp.tags -%}
+                            <span class="label">{{tag}}</span>
+                            <span class=""> </span>
+                            {%- endfor -%}   
+                    	</div>
+    				</div>		
+    				
+    			</div>
+            {%- endfor %}
+            <ul class="pager">
+                <li class="previous">
+                    <a href="topicindex?next=0&&newest=1&&pg={{page_num}}">&larr; Newer</a>
+                </li>
+                <li class="next">
+                    <a href="topicindex?next=1&&newest=1&&pg={{page_num}}">Older &rarr;</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--Hotest topics-->
+        <div id="hottest" class="tab-pane">
+            {%- for tp in hottest_topics -%}
+                <div class="row-fluid topic">
+                    <div class="span3 row">
+                        <div class="span7">
+                            <div class="offset5"><strong>{{tp.comments_num}}</strong></div>
+                            <div><strong>comments</strong></div>
+                        </div>
+                        <div class="span1 offset1">
+                            <div class="offset7"><strong>{{tp['statistic']['push']-tp['statistic']['pull']}}</strong></div>
+                            <div><strong>votes</strong></div>
+                        </div>
+                    </div>
+                    <div class="span9">
+                        <a href="/topic?tp={{tp._id}}"><strong class="title">{{tp.title}}</strong></a>
+                        <div class="row-fluid">
+                            {%- for tag in tp.tags -%}
+                            <span class="label">{{tag}}</span>
+                            <span class=""> </span>
+                            {%- endfor -%}   
+                        </div>
+                    </div>      
+                    
+                </div>
+            {%- endfor %}
+            <ul class="pager">
+                <li class="previous">
+                    <a href="topicindex?next=0&&newest=0&&pg={{page_num}}">&larr; Newer</a>
+                </li>
+                <li class="next">
+                    <a href="topicindex?next=1&&newest=0&&pg={{page_num}}">Older &rarr;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   
+		
+</div>
+{% endblock %}
+
+{% block leftsidebar %}
+<div class="span2">
+<!--Sidebar content-->
+	<div id="user">
+	</div>
+</div>	
+{% endblock %}
+
+{% block rightsidebar %}
+<div class="span3">
+<!--Sidebar content-->
+	<div class="btn-group">
+        <a href="/addtopic" <button id="guess_btn" type="submit" class="btn btn-success">Add Topic</button></a>
+    </div>
+</div>	
+{% endblock %}
+
+{% block jsblock %}
+{{ super() }}
+<script src="/static/js/topicindex.js" type="text/javascript"></script>
+{% endblock %}

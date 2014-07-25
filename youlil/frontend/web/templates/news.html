@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+
+
+{% block cssblock %}
+{{ super() }}
+<link href="static/rateit/rateit.css" rel="stylesheet" type="text/css">
+<link href="static/rateit/antenna.css" rel="stylesheet" type="text/css">
+.news_link{
+    float:right;
+}
+{%endblock%}
+
+{% block header %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="span7">  
+        <div id="article">
+             <div ><h3>{{art['title']}}</h3></div>
+             <a class="news_link" href="{{art['url']}}"<p>news link</p></a>
+             <div>{{art['content']}}</div>
+         </div>
+     </div>      
+{% endblock %}
+{% block rightsidebar %}
+<!--
+<div class="span3">
+    <div id="user">
+        <div id="username">
+            <span>username:</span>{{user['username']}}
+        </div>
+    </div>
+    <div id="feedback       ">
+        <form id='feedform' method='post' action="">
+            <div id="interest">   
+                <input type="hidden" id="backing6">
+                <div id="r_interest">
+                </div>
+                <div>
+                    <span id="v_interest"></span>
+                </div>
+
+                <script type="text/javascript">
+                    $(function () { $('#r_interest').rateit({ max: 5, step: 1, backingfld: '#backing6' }); });               
+                    $("#r_interest").bind('rated', function (event, value) {
+                         $('#v_interest').text('You\'ve rated it: ' + value+ 'star');
+                         i_score=value;
+                    });
+                    var i_values = ['Looks like a shit', 'Hehe ,not good.', 'It is ok', 'Good,i like it' ,'Wow,how smart you are!'];
+                    $("#r_interest").bind('over', function (event, value) { $(this).attr('title', i_values[value-1]); });
+                    $("#r_interest").bind('reset', function () { $('#v_interest').text('Rating reset');i_score=0 });
+                </script>
+            </div>
+            <div id="hardness">          
+                <div id="r_hard" class="rateit antenna" data-rateit-starwidth="15.3" data-rateit-starheight="55">
+                </div>
+                <div>
+                    <span id="v_hard"></span>
+                </div>
+                <script type="text/javascript">
+                    $(function () { $('#r_hard').rateit({ max: 5, step: 1, backingfld: '#backing6' }); });
+                     var h_values = ['extremly hard', 'hard', 'good', 'easy' ,'very easy'];
+                    $("#r_hard").bind('over', function (event, value) { $(this).attr('title', h_values[value-1]); });
+                    $("#r_hard").bind('rated', function (event, value) {
+                         $('#v_hard').text('You\'ve rated it: ' + h_values[value-1]);
+                         h_score=value;
+                         });
+                    $('#r_hard').bind('reset',function(){$('v_hard').text('Rating reset');h_score=0;})
+                </script>            
+            </div>
+            <input id='feed_submit' type='submit' value='Submit' >
+            <div id='feed_res'></div>
+        </form>     
+    </div>
+</div>
+-->
+{% endblock %}    
+
+{% block leftsidebar %}
+<div class="span2">
+<!--Sidebar content-->
+	<div id="user">
+		
+	</div>
+</div>	
+{% endblock %}
+
+{% block jsblock %}
+{{ super() }}
+<script>
+    var art_id='{{art.id}}'
+    var i_score=0;
+    var h_score=0;
+    function getCookie(name){
+        var c=document.cookie.match("\\b"+name+"=([^;]*)\\b");
+        return c?c[1]:undefined;
+    };
+    $(document).ready(function(){
+        $('#feedform').submit(function(e){
+        $.ajax({
+                url:'/feedback',
+                type:'post',
+                datatype:'json',
+                data:{'art_id':art_id,'i_score':i_score,'h_score':h_score,'_xsrf':getCookie('_xsrf')},
+                success:function(data){
+                       $('#feed_res').text(data)
+                },
+        });
+        e.preventDefault();
+     });
+  });
+</script>
+<script src="static/rateit/jquery.rateit.js" type="text/javascript"></script>
+{% endblock %}

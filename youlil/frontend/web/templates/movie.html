@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+
+
+{% block cssblock %}
+{{ super() }}
+<link href="static/rateit/rateit.css" rel="stylesheet" type="text/css">
+<link href="static/rateit/antenna.css" rel="stylesheet" type="text/css">
+<link href="/static/css/movie.css" rel="stylesheet" type="text/css">
+.news_link{
+    float:right;
+}
+{%endblock%}
+
+{% block header %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+    <div class="span7">
+        <div class="movie_title">
+            <h3>{{movie.title}}</h3>
+        </div>  
+        <div class="movie_block row-fluid">
+            <div class="movie_picture img-rounded span3" >
+                <img class="img-rounded movie_img" src="{{movie.posters.original}}"/>
+            </div>
+            <div class="movie_info span9">
+                <div class="movie_directors">
+                    <span><strong>Directors: </strong></span>
+                    {%- for dire in movie.abridged_directors -%}
+                    <span class="label label-success">{{dire.name}}</span>
+                    <span class=""> </span>
+                    {%- endfor -%} 
+                </div>
+                <div class="movie_actors">
+                    <span><strong>Abridged cast: </strong></span>
+                    {%- for cast in movie.abridged_cast -%}
+                    <span class="label label-info">{{cast.name}}</span>
+                    <span class=""> </span>
+                    {%- endfor -%}
+                </div>
+                <div class="movie_genres">
+                    <span><strong>Genres: </strong></span>
+                    {%- for gen in movie.genres -%}
+                    <span class="label">{{gen}}</span>
+                    <span class=""> </span>
+                    {%- endfor -%} 
+                </div>
+                <div class="movie_year">
+                    <span><strong>Year: </strong></span>
+                    <span class="">{{movie.year}}</span>
+                </div>
+                <div class="movie_runtime">
+                    <span><strong>Runtime: </strong></span>
+                    <span class="">{{movie.runtime}}</span>
+                </div>
+                    <div class="movie_links">
+                        <span><a href="{{movie.links.alternate}}"><strong>Movie Links</strong></a></span>
+                    </div>
+            </div>
+        </div>
+
+        <div class="movie_synopsis row-fluid">
+            <div>
+            <span><strong>Synopsis:</strong></span>
+            <span>{{movie.synopsis}}</span>
+            </div>
+        </div>
+
+        <div class="movie_critic_review critic_block row-fluid">
+            <h4 class="text-success">Critic Reviews:</h4>
+            {%- for review in movie.reviews.reviews -%}
+            <div class="review_block row-fluid">
+                <span><strong>{{ review.critic }}</strong></span>
+                <span><small>{{ review.date }}</small></span>
+                <div class="review_info">
+                    <span>{{ review.quote }}</span>
+                    <span><a href="{{review.links.review}}">links</a></span>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+
+        <div class="movie_comments comments_block row-fluid">
+            <h4 class="text-success">Comments:</h4>
+            {%- for comment in comments -%}
+            <div class="movcomment">
+                <div class="comment_info">
+                    <span class="userinfo">Posted by <strong>{{comment['username']}}</strong></span>
+                    <span voted="0" class="vote_cell">                   
+                        <span id="{{comment['_id']}}" cat="3" class="operation"><i class="icon-thumbs-down"></i>pull</span>
+                        <span class="vote_count">{{comment['statistic']['push']-comment['statistic']['pull']}}</span>
+                        <span id="{{comment['_id']}}" cat="4" class="operation"><i class="icon-thumbs-up"></i>push</span>                        
+                    </span>
+                </div>
+                <div class="comment_content">{{comment['content']}}</div>
+                
+            </div>
+            {%- endfor -%}
+
+        <div id="comments" class="comment_editor">
+            <form name="commentform" name="" method="post" action="/movie/comment?mid={{movie['id']}}">
+                <textarea  rows="3" class="span12"  name="comment" placeholder="comment here..."></textarea>
+                <div class="itemsubmit">
+                    <label>&nbsp;</label>
+                    <input type="submit" value="submit"  class="btn" tabindex="6" />
+                </div>
+            </form>
+        </div>    
+
+     </div>      
+{% endblock %}
+{% block rightsidebar %}
+
+{% endblock %}    
+
+{% block leftsidebar %}
+<div class="span2">
+<!--Sidebar content-->
+	<div id="user">
+		
+	</div>
+</div>	
+{% endblock %}
+
+{% block jsblock %}
+{{ super() }}
+{% endblock %}

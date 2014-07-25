@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+
+
+{% block cssblock %}
+{{ super() }}
+<link href="/static/css/mypage.css" rel="stylesheet" type="text/css">
+{%endblock%}
+
+{% block header %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+    <div class="span7">  
+        <div id="user" class="user_info row-fluid">
+            <div id="username" class="span6">
+                <span>username:</span><h4>{{visited_user.username}}</h4>
+            </div>
+            {%- if visited_user.addable -%}
+                <div class="span6">
+                    <button class="btn btn-large btn-success" type="button">Add Friend</button>
+                </div>
+            {%- endif -%}
+            
+        </div>
+        <div>
+            <div>
+                <h4>Topics I have posted:</h4>
+            </div>
+            {%- for topic in topics -%}
+            <div id="topic" class="singletopic">
+                <div>Title:  {{topic['title']}}</div>
+                <div>Content:{{topic['content']}}</div>
+            </div>
+            {%- endfor -%}
+        </div>
+        
+    </div>      
+{% endblock %}
+
+{% block rightsidebar %}
+<div class="span3">
+<!--Sidebar content--> 
+    <!--
+    <div class="btn-group">
+        <button id="guess_btn" type="submit" class="btn btn-success">Guess Friends</button>
+    </div>
+    {%- for user in rec_users -%}
+    <div id="rec_user" class="rec_user">
+        <a href="/mypage?uid={{user['_id']}}" ><div>User:{{user['username']}}</div></a>
+    </div>
+    {%- endfor -%}
+    -->
+</div>  
+{% endblock %}    
+
+{% block leftsidebar %}
+<div class="span2">
+<!--Sidebar content-->
+	
+</div>	
+{% endblock %}
+
+{% block jsblock %}
+{% endblock %}

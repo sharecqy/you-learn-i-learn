@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}    
+{% endblock %}
+
+
+{% block cssblock %}
+{{ super() }}
+<link href="/static/css/movieindex.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{
+{% block header %}
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="span7">
+ 
+	    <ul class="nav nav-tabs" id="tabs">
+	      <li class="active"><a href="#movies" data-toggle="tab">Recommendation</a></li>
+	      <li><a href="#weekly" data-toggle="tab">Weekly</a></li>
+	    </ul>
+
+	
+		<!--Body content-->
+		<div class="tab-content">
+
+
+		 	<!--Recommendation for users-->
+		    <div id="movies" class="tab-pane active">
+			{%- for movie in movies -%}
+				<div class="movie_block row-fluid">
+
+					<div class="movie_picture img-rounded span3" >
+						<a href="/movie?mid={{movie.id}}"><img class="img-rounded movie_img" src="{{movie.posters.original}}"/>
+						<span><strong><em>IMDB:{{movie.ratings.audience_score}}</em></strong></span>
+						</a>
+
+					</div>
+					<div class="movie_info span9">
+						<div class="movie_title">
+		                    <a href="/movie?mid={{movie.id}}"><strong class="title">{{movie.title}}</strong></a>
+						</div>				
+						<div class="movie_synopsis">
+		                    <span>Synopsis:{{movie.synopsis}}</span>
+						</div>
+						<span class="movie_genres">
+					    {%- for gen in movie.genres -%}
+	                    <span class="label">{{gen}}</span>
+	                    <span class=""> </span>
+	                    {%- endfor -%} 				
+	                    </span>
+					</div>
+				</div>
+			{%- endfor %}
+			</div>
+
+
+			<!--Weekly topic for users-->
+			<div class="tab-pane" id="weekly">
+	      	{%- for movie in weekly -%}
+				<div class="movie_block row-fluid">
+
+					<div class="movie_picture img-rounded span3" >
+						<a href="/movie?mid={{movie.id}}"><img class="img-rounded movie_img" src="{{movie.posters.original}}"/>
+						<span><strong><em>IMDB:{{movie.ratings.audience_score}}</em></strong></span>
+						</a>
+
+					</div>
+					<div class="movie_info span9">
+						<div class="movie_title">
+		                    <a href="/movie?mid={{movie.id}}"><strong class="title">{{movie.title}}</strong></a>
+						</div>				
+						<div class="movie_synopsis">
+		                    <span>Synopsis:{{movie.synopsis}}</span>
+						</div>
+						<span class="movie_genres">
+					    {%- for gen in movie.genres -%}
+	                    <span class="label">{{gen}}</span>
+	                    <span class=""> </span>
+	                    {%- endfor -%} 				
+	                    </span>
+					</div>
+				</div>
+			{%- endfor %}
+	    	</div>
+		</div>
+</div>
+{% endblock %}
+
+{% block leftsidebar %}
+<div class="span2">
+<!--Sidebar content-->
+	<div id="user">
+	</div>
+</div>	
+{% endblock %}
+
+{% block rightsidebar %}
+<div class="span3">
+<!--Sidebar content-->
+	<div class="btn-group">
+		<button id="guess_btn" type="submit" class="btn btn-success">Guess Movies</button>
+	</div>
+</div>	
+{% endblock %}
+
+{% block jsblock %}
+{{ super() }}
+<script src="/static/js/movieindex.js" type="text/javascript"></script>
+{% endblock %}

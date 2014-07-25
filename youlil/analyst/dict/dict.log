@@ -1,0 +1,216 @@
+2013-03-20 09:53:11.353 [5835] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-03-20 09:53:11.353 [5835] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-03-20 09:53:11.353 [5835] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-03-20 09:53:12.822 [5835] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-03-20 09:53:12.823 [5835] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-03-20 09:53:12.823 [5835] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-03-20 09:53:12.823 [5835] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-03-20 09:53:14.372 [5835] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-03-20 09:53:14.373 [5835] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-03-20 09:53:14.373 [5835] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-03-20 09:53:14.373 [5835] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-03-20 09:53:14.490 [5835] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-03-20 09:53:51.835 [5837] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-03-20 09:53:51.836 [5837] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-03-20 09:53:51.836 [5837] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-03-20 09:53:53.339 [5837] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-03-20 09:53:53.340 [5837] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-03-20 09:53:53.340 [5837] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-03-20 09:53:53.340 [5837] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-03-20 09:53:54.933 [5837] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-03-20 09:53:54.934 [5837] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-03-20 09:53:54.934 [5837] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-03-20 09:53:54.934 [5837] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-03-20 09:53:55.054 [5837] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-03-20 09:54:35.669 [5838] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-03-20 09:54:35.670 [5838] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-03-20 09:54:35.670 [5838] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-03-20 09:54:37.143 [5838] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-03-20 09:54:37.144 [5838] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-03-20 09:54:37.144 [5838] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-03-20 09:54:37.144 [5838] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-03-20 09:54:38.696 [5838] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-03-20 09:54:38.697 [5838] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-03-20 09:54:38.698 [5838] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-03-20 09:54:38.699 [5838] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-03-20 09:54:38.821 [5838] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 09:29:12.717 [3904] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 09:29:12.756 [3904] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 09:29:12.756 [3904] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 09:29:15.005 [3904] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 09:29:15.006 [3904] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 09:29:15.006 [3904] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 09:29:15.006 [3904] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 09:29:17.483 [3904] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 09:29:17.483 [3904] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 09:29:17.483 [3904] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 09:29:17.484 [3904] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 09:29:17.733 [3904] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:01:12.756 [6288] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:01:12.756 [6288] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:01:12.756 [6288] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:01:14.813 [6288] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:01:14.815 [6288] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:01:14.815 [6288] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:01:14.815 [6288] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:01:16.966 [6288] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:01:16.967 [6288] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:01:16.967 [6288] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:01:16.967 [6288] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:01:17.119 [6288] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:01:50.219 [4372] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:01:50.219 [4372] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:01:50.220 [4372] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:01:52.226 [4372] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:01:52.227 [4372] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:01:52.227 [4372] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:01:52.227 [4372] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:01:54.394 [4372] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:01:54.395 [4372] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:01:54.395 [4372] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:01:54.395 [4372] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:01:54.552 [4372] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:02:54.871 [1812] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:02:54.871 [1812] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:02:54.871 [1812] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:02:56.907 [1812] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:02:56.907 [1812] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:02:56.907 [1812] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:02:56.907 [1812] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:02:59.043 [1812] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:02:59.045 [1812] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:02:59.045 [1812] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:02:59.046 [1812] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:02:59.203 [1812] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:10:10.780 [2444] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:10:10.780 [2444] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:10:10.780 [2444] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:10:13.211 [2444] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:10:13.213 [2444] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:10:13.213 [2444] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:10:13.213 [2444] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:10:15.816 [2444] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:10:15.818 [2444] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:10:15.818 [2444] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:10:15.818 [2444] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:10:15.992 [2444] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:11:24.122 [2192] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:11:24.122 [2192] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:11:24.122 [2192] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:11:26.500 [2192] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:11:26.500 [2192] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:11:26.500 [2192] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:11:26.500 [2192] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:11:29.076 [2192] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:11:29.078 [2192] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:11:29.078 [2192] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:11:29.078 [2192] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:11:29.247 [2192] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:12:02.813 [3824] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:12:02.815 [3824] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:12:02.815 [3824] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:12:05.219 [3824] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:12:05.220 [3824] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:12:05.220 [3824] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:12:05.220 [3824] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:12:07.831 [3824] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:12:07.832 [3824] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:12:07.832 [3824] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:12:07.832 [3824] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:12:08.000 [3824] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:13:02.694 [6568] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:13:02.694 [6568] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:13:02.696 [6568] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:13:05.065 [6568] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:13:05.068 [6568] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:13:05.068 [6568] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:13:05.068 [6568] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:13:07.617 [6568] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:13:07.618 [6568] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:13:07.618 [6568] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:13:07.618 [6568] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:13:07.786 [6568] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:13:43.411 [2152] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:13:43.411 [2152] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:13:43.411 [2152] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:13:45.793 [2152] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:13:45.796 [2152] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:13:45.796 [2152] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:13:45.796 [2152] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:13:48.346 [2152] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:13:48.348 [2152] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:13:48.348 [2152] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:13:48.348 [2152] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:13:48.519 [2152] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:14:03.359 [2016] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:14:03.361 [2016] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:14:03.361 [2016] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:14:05.753 [2016] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:14:05.755 [2016] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:14:05.755 [2016] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:14:05.756 [2016] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:14:08.270 [2016] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:14:08.272 [2016] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:14:08.272 [2016] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:14:08.272 [2016] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:14:08.440 [2016] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:14:27.566 [4936] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:14:27.566 [4936] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:14:27.566 [4936] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:14:30.032 [4936] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:14:30.033 [4936] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:14:30.035 [4936] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:14:30.035 [4936] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:14:32.575 [4936] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:14:32.576 [4936] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:14:32.576 [4936] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:14:32.576 [4936] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:14:32.746 [4936] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:14:54.502 [6488] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:14:54.502 [6488] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:14:54.503 [6488] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:14:56.901 [6488] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:14:56.903 [6488] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:14:56.903 [6488] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:14:56.904 [6488] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:14:59.463 [6488] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:14:59.463 [6488] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:14:59.464 [6488] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:14:59.464 [6488] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:14:59.638 [6488] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:18:51.128 [6788] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:18:51.130 [6788] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:18:51.130 [6788] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:18:53.516 [6788] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:18:53.517 [6788] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:18:53.517 [6788] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:18:53.517 [6788] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:18:56.068 [6788] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:18:56.069 [6788] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:18:56.069 [6788] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:18:56.069 [6788] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:18:56.237 [6788] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:19:33.986 [2092] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:19:33.986 [2092] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:19:33.986 [2092] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:19:36.368 [2092] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:19:36.369 [2092] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:19:36.369 [2092] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:19:36.371 [2092] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:19:38.924 [2092] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:19:38.926 [2092] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:19:38.926 [2092] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:19:38.926 [2092] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:19:39.092 [2092] INFO identify dict 牛津英汉双解美化版, word count 39429
+2013-05-07 11:28:30.624 [5200] WARNING ifo ./data/langdao/langdao-ec-gb.ifo file is not exist
+2013-05-07 11:28:30.624 [5200] INFO parse stardict info file ./data/langdao/langdao-ec-gb.ifo
+2013-05-07 11:28:30.625 [5200] INFO parse stardict index file ./data/langdao/langdao-ec-gb.idx
+2013-05-07 11:28:33.000 [5200] INFO identify dict 朗道英汉字典5.0, word count 435468
+2013-05-07 11:28:33.002 [5200] WARNING ifo ./data/lazyworm/lazyworm-ec.ifo file is not exist
+2013-05-07 11:28:33.003 [5200] INFO parse stardict info file ./data/lazyworm/lazyworm-ec.ifo
+2013-05-07 11:28:33.003 [5200] INFO parse stardict index file ./data/lazyworm/lazyworm-ec.idx
+2013-05-07 11:28:35.555 [5200] INFO identify dict 懒虫简明英汉词典, word count 452185
+2013-05-07 11:28:35.556 [5200] WARNING ifo ./data/oxford/oxford-gb-formated.ifo file is not exist
+2013-05-07 11:28:35.556 [5200] INFO parse stardict info file ./data/oxford/oxford-gb-formated.ifo
+2013-05-07 11:28:35.556 [5200] INFO parse stardict index file ./data/oxford/oxford-gb-formated.idx
+2013-05-07 11:28:35.724 [5200] INFO identify dict 牛津英汉双解美化版, word count 39429

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>	
+{% block head %}
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<base href="{{site.decode('utf-8')}}"/>	
+	<title>{{title.decode('utf-8')}} </title>	
+	{% block cssblock %}
+	{% endblock %}
+	{% block jsblock %}
+	{% endblock %}
+{% endblock%}
+</head>
+<body>
+	<div id="container">
+		{% block header %}
+		{% endblock %}
+		<div id="main"> 
+			{% block sidebar %}
+			{% endblock %}
+			
+			{% block content %}
+			{% endblock %}
+			
+			
+		</div>
+		
+		{% block footer %}	
+		<div id="footer">
+			<a href="http://weibo.com/qingyucao" title="my weibo address">微博: @sharecqy</a>
+			<a href="http://webpy.org/m" title="contributor">Supported by Web.py</a> 
+		</div>
+		{% endblock %}
+	</div>
+</body>
+</html>
