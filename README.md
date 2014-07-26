@@ -8,8 +8,9 @@ you-learn-i-learn
   第一次，把算法这个东西放到了代码中，也许不是很牛逼，但是有时候就是这样，对问题的理解和认识，比具体的实现方式更重要。  
   
   
-  如果你也有一段刻骨铭心,带你进入编程世界的代码,一起分享出来吧！  
-  大家可以告诉我连接，我整理出来，分享给大家~~
+  如果你也有一段刻骨铭心,带你进入编程世界的代码,一起分享出来吧！
+    
+  ##大家可以告诉我连接，我整理出来，分享给大家~~##
 
 
 This is a project i created in school which use tornado as web framework.Although it is my first web project,i tried my best to make it better.
