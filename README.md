@@ -10,8 +10,8 @@ you-learn-i-learn
   
   如果你也有一段刻骨铭心,带你进入编程世界的代码,一起分享出来吧！
     
-=======  
-  大家可以告诉我连接，我整理出来，分享给大家
+
+  大家可以告诉我链接，整理出来，分享给大家
 =======
 
 This is a project i created in school which use tornado as web framework.Although it is my first web project,i tried my best to make it better.
