@@ -1,1 +1,0 @@
-logconfig="./config/log.cfg"
